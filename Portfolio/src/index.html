@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+          integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>MyPortfolio</title>
+</head>
+<body>
+    <nav id="navbar" class="navbar"><a href="#"></a> </nav>
+    <div class="container">
+        <!--=============== NAVIGATION MENU ===============-->
+        <div class="menu">
+            <a href="index.html" class="menu-icon fas fa-home"></a>
+            <a href="index.html" class="menu-icon fas fa-user"></a>
+            <a href="https://github.com/nibhalog" class="menu-icon fas fa-code"></a>
+            <a href="https://www.linkedin.com/in/nibha-kumari-472592226/" class="menu-icon fas fa-briefcase"></a>
+            <a href="https://www.linkedin.com/in/nibha-kumari-472592226/" class="menu-icon fas fa-envelope"></a>
+        </div>
+        <!--=============== MAIN "WINDOW" ===============-->
+        <div class="portfolio">
+            <!--=============== HEADER SECTION ===============-->
+            <section class="header">
+                <img class="header-img"
+                     src="pic.jpeg" alt="Profile Picture" />
+                <h1>Nibha Kumari</h1>
+                <h2>B.Tech Undergrad|Web-Dev|Programmer </h2>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/nibha-kumari-472592226/" target="_blank" class="fab fa-linkedin-in" id="profile-link"></a>
+                    <a href="https://github.com/nibhalog" target="_blank" class="fab fa-github"></a>
+                    <a href="https://www.linkedin.com/in/nibha-kumari-472592226/" target="_blank" class="fab fa-hackerrank"></a>
+                </div>
+                <a href="Resume.pdf" class="cta">DownIoad CV</a>
+            </section>
+            <!--=============== CONTENT SECTION ===============-->
+            <div class="content">
+                <!--=============== HOME ===============-->
+                <section class="content-card home" id="welcome-section">
+                    <h1>Hello,I'm Nibha Kumari!</h1>
+                </section>
+                <!--=============== ABOUT ME ===============-->
+                <section class="content-card about" id="about">
+                    <h1>About me</h1>
+                    <div class="about-item about-me">
+                        <p>
+                            I'm a B.Tech 3rd Year undergrad in Computer Science and Engineering Department from GWECA,BTU University.
+                            A determined, enthusiastic,goal oriented learner. Working on new projects, challenges excite me and
+                            I believe in being an all-rounder.
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <div class="about-item skills">
+                            <h1>Skills</h1>
+                            <span class="skill">JAVA</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">REACT</span>
+                            <span class="skill">SQL</span>
+                            <span class="skill">Communication</span>
+                            <span class="skill">Javascript</span>
+                            <span class="skill">Presentation</span>
+
+                        </div>
+                        <div class="about-item Interests">
+                            <h1>Areas of Interest</h1>
+                            <div class="1">
+                                <p>Database Management System</p>
+                            </div>
+                            <div class="2">
+                                <p>Web Development</p>
+                            </div>
+                            <div class="3">
+                                <p>Data Science</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--=============== PROJECTS ===============-->
+                <section class="content-card projects" id="projects">
+                    <h1>Projects</h1>
+                    <div class="col-2 project-list">
+                        <div class="project-tile">
+                            <img src="project1.jpg" alt="" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Portfolio Page</h3>
+                                    <p>
+                                        Designed a portfolio page using HTML and CSS.
+                                        I took reference from MDN docs, W3schools and google.
+                                        Learned basic HTML ans CSS application to create responsive page.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="project2.jpg" alt="" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Text-Based Game JAVA</h3>
+                                    <p>
+                                        Designed a text based game using JAVA
+                                        Learnt the implementation of java classes and interfaces
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="Project3.png" alt="" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Bank Management Database System</h3>
+                                    <p>
+                                        Designed bank database management system using MySQL
+                                        Used basic concepts of DBMS and relational databases
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="project4.png"
+                                 alt="" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>To-Do List</h3>
+                                    <p>
+                                        I have Created a simple To-Do List webpage using React.js,javaScript,Bootstrap,Html and Css
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+               
+               
+                <!--=============== CONTACT ===============-->
+                <section class="content-card contact" id="contact">
+                    <h1>Contact</h1>
+                    <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+                        <div class="input-box">
+                            <input type="text" class="text-input" name="name" placeholder="Name" />
+                        </div>
+                        <div class="input-box">
+                            <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
+                        </div>
+                        <div class="input-box">
+                            <input type="subject" class="text-input" name="subject" id="subject"
+                                   placeholder="Subject" />
+                        </div>
+                        <div class="input-box">
+                            <textarea name="text" class="message" placeholder="Message..."></textarea>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" class="submit-btn" id="submit" value="submit" />
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
